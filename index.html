@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Pomodoro Timer</title>
+    <meta charset="utf-8">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Pomodoro Timer</h1>
+        </header>
+
+        <section class="timer-settings">
+            <section class="labels-row clearfix">
+                <div class="session">
+                    <button class="btn" id="session-decrement">-</button>
+                    <h3 class="label">Session</h3>
+                    <button class="btn" id="session-increment">+</button>
+                </div>
+
+                <div class="break">
+                    <button class="btn" id="break-decrement">-</button>
+                    <h3 class="label">Break</h3>
+                    <button class="btn" id="break-increment">+</button>
+                </div>
+            </section>
+
+            <section class="times-row clearfix">
+                <span id="session-time">25</span>
+                <span id="break-time">05</span>
+            </section>
+        </section>
+
+        <section class="main-timer">
+            <section class="timer-controls">
+                <button id="start-btn"></button>
+                <button id="pause-btn"></button>
+                <button id="restart-btn"></button>
+            </section>
+
+            <section class="timer-display">
+                <button id="session-btn">Session</button>
+                <button id="break-btn">Break</button>
+                <p id="display-time">25:00</p>
+            </section>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>

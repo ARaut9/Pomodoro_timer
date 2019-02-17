@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button::-moz-focus-inner {
+    border: 0; 
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-size: 55px;
+}
+
+/* Timer Settings Styles */
+
+.timer-settings, .main-timer {
+    background-color: black;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.timer-settings {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.session, .break, .btn, .label {
+    display: inline-block;
+}
+
+.session, .break {
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.times-row {
+    font-size: 40px;
+}
+
+.session {
+    float: left;
+    margin-left: 30px;
+}
+
+.break {
+    float: right;
+    margin-right: 30px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+#session-time {
+    margin: 0 200px 0 100px;
+}
+
+/* Timer Controls Styles */
+
+.timer-controls {
+    text-align: center;
+}
+
+.timer-controls button {
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    border: none;
+    margin: 30px 0 15px 0;
+}
+
+#start-btn {
+    background-image: url(images/start.png);
+    margin-right: 110px;
+}
+
+#pause-btn {
+    background-image: url(images/pause.png);
+    margin-right: 90px;
+}
+
+#restart-btn {
+    background-image: url(images/restart.png);
+}
+
+.timer-display button {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 10px 0px 0 0px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#session-btn {
+    border: 1px solid white;
+}
+
+.timer-display {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#display-time {
+    font-size: 100px;
+    margin-top: 20px;
+}
